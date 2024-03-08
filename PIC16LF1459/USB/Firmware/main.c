@@ -25,14 +25,10 @@ int main(void)
 {
     // Write your code here
 
-       TRISA  = 0 ;//output
-
+      
     while (1)
     {
-      PORTAbits.RA0 = 1;
-      __delay_ms(1000);
-       PORTAbits.RA0 = 0;
-       __delay_ms(1000);
+    
 
     }
 

@@ -526,33 +526,33 @@ l562:
 	bcf	status, 6	;RP1=0, select bank0
 	bcf	(40/8),(40)&7	;volatile
 	line	21
-	bsf	(49/8),(49)&7	;volatile
-	line	24
+	bcf	(49/8),(49)&7	;volatile
+	line	23
 	
 l13:	
-	line	26
-	btfss	(49/8),(49)&7	;volatile
+	line	25
+	btfsc	(49/8),(49)&7	;volatile
 	goto	u11
 	goto	u10
 u11:
 	goto	l14
 u10:
-	line	29
+	line	26
 	
 l564:	
-	bcf	(40/8),(40)&7	;volatile
-	line	30
+	bsf	(40/8),(40)&7	;volatile
+	line	27
 	goto	l13
-	line	31
+	line	28
 	
 l14:	
-	line	34
-	bsf	(40/8),(40)&7	;volatile
+	line	29
+	bcf	(40/8),(40)&7	;volatile
 	goto	l13
 	global	start
 	ljmp	start
 	callstack 0
-	line	39
+	line	34
 GLOBAL	__end_of_main
 	__end_of_main:
 	signat	_main,90

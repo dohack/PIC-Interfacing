@@ -11,7 +11,7 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"14 D:\2024\1-projects\Learning-MCUs\PIC\PIC16\PIC16F877A\Switch-led\firmware\main.c
+"14 D:\2024\1-projects\MAIN_GITHUB\PIC-MCU-Code\PIC16F877a\02-Switch\Firmware\main.c
 [v _main main `(i  1 e 2 0 ]
 "2660 C:\Program Files\Microchip\xc8\v2.45\pic\include\proc\pic16f877a.h
 [v _RA0 RA0 `VEb  1 e 0 @40 ]
@@ -21,8 +21,8 @@
 [v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
 "2942
 [v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
-"14 D:\2024\1-projects\Learning-MCUs\PIC\PIC16\PIC16F877A\Switch-led\firmware\main.c
+"14 D:\2024\1-projects\MAIN_GITHUB\PIC-MCU-Code\PIC16F877a\02-Switch\Firmware\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"39
+"34
 } 0
