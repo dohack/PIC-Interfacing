@@ -5,7 +5,7 @@
  * Compiler:  MPLAB XC8, Plz add in setting bin folder of xc8
  */
 
-#include <xc.h>
+#include <xc.h> // header file
 
 #pragma config FOSC = HS // Oscillator Selection bits (HS oscillator)
 #pragma config WDTE = OFF // watchdog time enable bit (WDTE disabled)
@@ -24,9 +24,8 @@ int main(void)
     TRISA0 = 0; // Set RA0 as output for LED
     TRISB1 = 1; // Set RA1 as input for switch
 
-    RA0 = 0; 
-    RB1 = 0;
-    
+    RA0 = 0; // inital value of pint RA0
+    RB1 = 0; // inital value of pint RB1
     while (1) // Continuous loop
     {
         if(RB1 == 0){ // Pull Up resitor used
