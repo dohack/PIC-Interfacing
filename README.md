@@ -1,4 +1,4 @@
-<b># PIC MCU -Interfacing</b>
+<b> PIC MCU -Interfacing</b>
 MCU used : 
-#PIC16F877A
+PIC16F877A
 
